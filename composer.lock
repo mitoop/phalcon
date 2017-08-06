@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "97d8ac1fefca912551d45f0f940b3b7c",
+    "packages": [
+        {
+            "name": "phalcon/dd",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/dd.git",
+                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phalcon/dd/bc3b3404f2af4fa04301a7eadce2b2c6281cbad4.zip",
+                "reference": "bc3b3404f2af4fa04301a7eadce2b2c6281cbad4",
+                "shasum": ""
+            },
+            "require": {
+                "ext-phalcon": ">=3.0",
+                "php": ">= 5.4  <8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/helper.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "http://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/dd/graphs/contributors"
+                }
+            ],
+            "description": "This package will add the `dd` and `dump` helpers to your Phalcon application.",
+            "homepage": "https://github.com/phalcong/dd",
+            "keywords": [
+                "VarDumper",
+                "dd",
+                "debug",
+                "dump",
+                "phalcon",
+                "utils"
+            ],
+            "time": "2017-05-06T17:11:54+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phalcon/ide-stubs",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phalcon/ide-stubs.git",
+                "reference": "346c3cad9e7e12fda4fa6d926ccfa465ee0f4271"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/phalcon/ide-stubs/346c3cad9e7e12fda4fa6d926ccfa465ee0f4271.zip",
+                "reference": "346c3cad9e7e12fda4fa6d926ccfa465ee0f4271",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Phalcon Team",
+                    "email": "team@phalconphp.com",
+                    "homepage": "https://phalconphp.com/en/team"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/phalcon/ide-stubs/graphs/contributors"
+                }
+            ],
+            "description": "The most complete Phalcon Framework IDE stubs library which enables autocompletion in modern IDEs.",
+            "homepage": "https://phalconphp.com",
+            "keywords": [
+                "Devtools",
+                "Eclipse",
+                "autocomplete",
+                "ide",
+                "netbeans",
+                "phalcon",
+                "phpstorm",
+                "stub",
+                "stubs"
+            ],
+            "time": "2017-07-10T17:49:30+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
