@@ -1,0 +1,11 @@
+### Mac
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+### Project
+#General
+.idea
+/cache/
+
+
